@@ -1,5 +1,7 @@
 docs/node_modules
 docs/.docz
 
+node_modules
+.docz
 
 package-lock.json
