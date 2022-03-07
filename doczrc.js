@@ -6,7 +6,7 @@ export default {
   ignore: ['./*.md'],
   title: pkgName,
   description: `${pkgName}.`,
-  base: `/${pkgName}/`,
+  base: `/`,
   menu: [
     'Introduction',
     'Mission',
