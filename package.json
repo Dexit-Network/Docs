@@ -1,15 +1,15 @@
 {
-  "name": "@nejcm/demo",
-  "version": "2.0.14",
-  "description": "@nejcm/docz-theme-extended documentation and demo.",
+  "name": "dexit-documentation",
+  "version": "1.0.1",
+  "description": "Dexit for Blockchain Powered Applications Documentation",
   "main": "index.js",
   "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nejcm/docz-theme-extended"
+    "url": "https://github.com/Dexit-Network/Docs"
   },
-  "homepage": "https://github.com/nejcm/docz-theme-extended",
+  "homepage": "https://github.com/Dexit-Network/Docs",
   "scripts": {
     "test": "echo 'No tests to run.'",
     "clean": "rimraf .docz && docz clean",

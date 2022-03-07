@@ -1,11 +1,11 @@
-const pkgName = 'DeXit';
+const pkgName = '';
 
 export default {
   lang: 'en',
   files: '**/*.mdx',
   ignore: ['./*.md'],
-  title: pkgName,
-  description: `${pkgName}.`,
+  title: '',
+  description: `Dexit for Blockchain Powered Applications.`,
   base: `/`,
   menu: [
     'Introduction',
@@ -25,6 +25,7 @@ export default {
     // API: ['Components', 'UI'],
   },
   themeConfig: {
+    mode: 'dark',
     search: true,
     mainContainer: {
       fullscreen: false,
