@@ -46,7 +46,7 @@ export default {
         light: 'public/assets/dexit_logo_light.svg',
         dark: 'public/assets/dexit_logo_light.svg'
       },
-      width: 45,
+      width: 110,
     },
     menu: {
       search: false,
