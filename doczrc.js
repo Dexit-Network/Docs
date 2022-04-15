@@ -43,7 +43,7 @@ export default {
     logo: {
       // src: '/public/assets/logo.svg' // use this line if you want one logo for both color modes
       src: {
-        light: 'public/assets/dexit_logo_light.svg',
+        light: 'public/assets/dexit_logo_dark.svg',
         dark: 'public/assets/dexit_logo_light.svg'
       },
       width: 110,
