@@ -6,7 +6,9 @@ export default {
   ignore: ['./*.md'],
   title: '',
   description: `Dexit for Blockchain Powered Applications.`,
-  base: `/`,
+  base: ``,
+  src: "./src",
+  public: "./public",
   menu: [
     'Introduction',
     'Mission',
