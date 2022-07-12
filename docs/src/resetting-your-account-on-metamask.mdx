@@ -1,0 +1,44 @@
+---
+name: Resetting your account on Metamask 
+route: /resetting-your-account-on-metamask 
+---
+
+
+import resetAccountPic from '../public/assets/reset-account.png';
+
+# Resetting your account on Metamask
+
+If you come across any issue with your account or you have used the imported 
+account to perform transactions in the legacy testnet, you can reset it by using 
+the Reset Account function on the MetaMask. Simply go to
+Setting/Advance and click Reset Account as shown below:
+
+
+<img src={resetAccountPic} alt="Submenus" />
+
+## DeXit Network Validator Overview
+
+The DeXit Network is high- performance transactions, fully compatible with EVM and 
+support smart contract functionality today most of the Blockchain do not incentivize 
+smart contract developers for their contribution to the network
+To become a validator, you need to submit a proposal first and wait for other active 
+validators to vote on it, after more than half of them pass, you will be eligible to 
+become a validator. Any address can stake to an address that qualifies to become a validator
+DeXit Network implementation has 25+ validators with Proof of Staked Authority (PoSA) 
+consensus that can support short block time and lower fees. The most bonded validator
+ candidates of staking will become validators and produce blocks. are responsible 
+ for committing new blocks in the blockchain. These validators participate in the 
+ consensus protocol by signing blocks that contain cryptographic signatures signed 
+ by each validator's private key. 
+
+
+
+Validator's rewards come from transaction fees and commission fees from delegators. 
+There will be penalty for Validator depends on the severity of the violation. 
+It can be Potential Loss Loss for Double-Sign Slash Running your validator 
+Account keys simultaneously on two or more machines will result in Double-Sign slashing.
+ Penalty for Double-Sign Slash:  Self staked will be slashed for the validator. 
+ The Double-Sign Jail time is 2^63-1 seconds, which means the candidate cannot become a
+  validator anymore. Note: Rewards for submitting double-sign evidence: 1M DXT Anyone
+   can submit a slashing request on Dexit with the evidence of Double Sign, which should 
+   contain the 2 block headers with the same height and parent block, sealed by the offending validator. 

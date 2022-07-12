@@ -1,0 +1,43 @@
+---
+name: Deploy Smart Contract on DeXit Network 
+route: /deploy-smart-contract-on-DeXit-network 
+---
+
+
+import remixIDEPic from '../public/assets/remix-ide.png';
+import solidityCompilerPic from '../public/assets/solidity-compiler.png';
+import ideWithMetamaskPic from '../public/assets/ide-with-metamask.png';
+import tokenIDEPic from '../public/assets/token-ide.png';
+
+# Deploy Smart Contract on DeXit Network
+
+This documentation demonstrates the deployment of smart contract on DeXit Network, using Solidity. @openzeppelin/contracts is used for the demo Solidity script. Remix, Truffle and Hardhat are included in this documentation, feel free to choose one of them.
+To Deploys as DRC20 smart contract with front-end. You can interact with the smart contract easily!  This tutorial is intended to be followed using the online IDE available at
+
+Remix
+
+Setting up Remix IDE for your smart contract
+Remix IDE is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the entire journey of contract development as well as act as a playground for learning and teaching EVM base blockchain. 
+
+
+<img src={remixIDEPic} alt="Submenus" />
+
+In order to deploy smart contract on Remix IDE 
+
+Modify “name”, “symbol”, “decimals” and “totalSupply” according to your requirements
+
+    1. Go to File Explorers, And Create a new file, Name it MyToken.sol. 
+    2. Copy/Paste the Smart contract from sample Contract  into the newly created file MyToken.sol
+    3. Make sure you’re compiler version, Language, Optimization 
+    4. Make sure Name, symbol, Decimal, total supply enter as per your requirement 
+    5. Once all field completed just choose environment inject web3 and Deploy contract. 
+
+<img src={solidityCompilerPic} alt="Submenus" />
+
+<img src={ideWithMetamaskPic} alt="Submenus" />
+
+Now, We have to deploy our smart contract on DeXit Network. By using web3 environment, wallet used Metamask,
+ We will be using Metamask. Please follow this tutorial to setup a Metamask Account. 
+ Open Metamask and select Custom RPC from the networks dropdown Go to setting page
+
+<img src={tokenIDEPic} alt="Submenus" />

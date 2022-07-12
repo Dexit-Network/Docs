@@ -1,0 +1,77 @@
+---
+name: Getting Started 
+route: /getting-started 
+---
+
+
+# Getting Started 
+Thanks for your interest in DeXit Chain. In this technical documentation, we have covered node setup instructions, our all-in-one command-line interface , and different SDK modules we utilized in the DeXit Chain
+
+
+## Running Node: 
+
+This is a detailed documentation for setting up a Validator or a full node on DeXit Network. 
+	
+## Pre-requisites
+We officially support macOS, and Linux only. Other platforms may work but there is no guarantee. We will extend our support to other platforms after we have stabilized our current architecture.
+
+
+## Prepare your Node
+
+To run DeXit nodes, you will need least with the following minimum requirements:
+
+8-core, x86_64 architecture processor
+
+32GB RAM 
+
+1 TB of SSD storage space
+
+
+A broadband Internet connection with up/down 10Mbps
+Note: If you are running a node in Testnet, 120GB SSD, 2CPU/8GB of RAM is sufficient.
+install DeXit Fullnode you can download the pre-build binaries from release page or follow the instructions to set up a full node.
+
+Compilation
+Requirements
+    • Linux or Mac
+    • golang >= 1.13
+    • git
+
+Download the config files genesis.json and config.toml by:
+## testnet
+wget --no-check-certificate  $(curl -s https://api.github.com/repos/DeXit-Network/Dxt/releases/latest |grep browser_ |grep testnet |cut -d\" -f4)
+unzip testnet.zip
+Launch your node and wait for it to get synced
+Create your Private Key to setup Node account
+You need to create an account that represents a validator's Account information. Use the following command to create a new account and set a password for that account:
+geth account new --datadir ./node
+echo {your-password} > password.txt
+
+
+Warning 
+
+Please do not expose your RPC endpoints to public network.
+geth --config ./config.toml --datadir ./node --syncmode snap -unlock {your-validator-address} --password password.txt  --mine  --allow-insecure-unlock --cache 18000
+
+Network Params
+Community users can use any Ethereum compatible wallet to configure with DeXit network params, like metamask etc.
+
+
+MainNet Chain Name: 
+Chain Name: DeXit
+Chain ID: 999
+Symbol: DXT
+RPC URL: https://datafeed.dexit.network
+Explorer URL: https://dxtscan.com
+WebSocket RPC URL: wss://dxtscan.network
+
+TestNet Chain Name: 
+Chain Name: DeXit
+Chain ID: 899
+Symbol: DXT
+RPC URL: https://testnet.dexit.network
+Explorer URL: https://testnet.dxtscan.com
+WebSocket RPC URL: wss://testnet.dxtscan.network
+
+
+
