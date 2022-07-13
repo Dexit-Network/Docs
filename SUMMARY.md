@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Docs](README.md)
+* [DeXit Network](README.md)
 * [src](src/README.md)
   * [Introduction](src/Introduction.mdx)
   * [deploy-smart-contract-on-DeXit-network](src/deploy-smart-contract-on-DeXit-network.mdx)
